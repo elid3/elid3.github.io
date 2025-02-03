@@ -1,5 +1,3 @@
-
-
 ---
 title: "My Journey to OSEE: Conquering the Advanced Windows Exploitation (AWE) Course & Exam"
 categories: 
