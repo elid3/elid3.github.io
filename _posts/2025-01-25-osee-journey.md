@@ -7,8 +7,6 @@ tags:
     - exploit development
 ---
 
-# **My Journey to OSEE: Conquering the Advanced Windows Exploitation (AWE) Course & Exam**
-
 If you’re reading this, you’re probably either considering **Advanced Windows Exploitation (AWE)** or preparing for the **Offensive Security Exploitation Expert (OSEE) exam**. Maybe you’re just curious about what it takes to pass one of the most challenging certifications in cybersecurity.  
 
 Either way, buckle up—this is an unfiltered breakdown of my experience.  
