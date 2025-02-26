@@ -16,7 +16,7 @@
 title: Home
 email: ""
 description: ""
-twitter_username: elid3
+twitter_username: eelid3
 github_username: elid3
 minimal_mistakes_skin: "dark"
 search: true
@@ -92,7 +92,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
