@@ -11,32 +11,31 @@ If you’re reading this, you’re probably either considering Advanced Windows 
 
 Either way, buckle up—this is an unfiltered breakdown of my experience. This is the story of months of preparation, intense debugging sessions, two exam attempts, and a complete reevaluation of how I approach exploitation.  
 
-Who Should Take the AWE Course?
+Preparing for AWE: Are You Ready?
 ---
-Before signing up for AWE, I asked myself:  
+Before signing up for Advanced Windows Exploitation (AWE), I had two questions: Am I ready for this? and What experience should I have before jumping in?
 
-- Am I ready for this?  
-- What experience should I have before jumping in?  
+The truth is, AWE is not a beginner-friendly course. It demands a solid foundation in exploit development and assumes you’re already comfortable with low-level Windows internals. If you’re looking to start learning exploit development, this is not the place to begin.
 
-Here’s the truth: AWE is not a beginner-friendly course. You need a strong foundation in exploit development before you even think about enrolling.  
+What You Need to Know Before Taking AWE
+---
+To get the most out of AWE, you should already have experience in user-mode exploitation and a strong understanding of Windows internals. If you've completed OSCP, OSED (EXP-301), or have hands-on experience writing exploits, you’re on the right path. Familiarity with memory management, process isolation, and modern exploit mitigations is crucial.
 
-Must-Have Skills Before AWE:
+Reverse engineering is another essential skill. Throughout the course, tools like IDA Pro and WinDbg become indispensable for analyzing vulnerabilities and debugging exploits. If you’re not comfortable navigating these tools, AWE will be a brutal uphill battle.
 
-- Basic exploit development knowledge—If you’ve done OSCP, OSED, or have real-world experience writing exploits, you’re on the right path.  
-- Understanding of Windows internals—You should be familiar with memory management, process isolation, and exploit mitigations.  
-- Reverse engineering skills—IDA Pro and WinDbg will become your best friends (or worst enemies).  
-- Some exposure to kernel exploitation—Even if you’ve never written a full kernel exploit, knowing the fundamentals (e.g., HEVD) helps.  
+While the course dives deep into kernel exploitation, prior experience writing full kernel exploits isn’t mandatory. However, understanding kernel fundamentals, such as heap spraying techniques, driver exploitation, and basic Windows kernel structures, will make the material more manageable. Studying vulnerabilities like those in HackSys Extreme Vulnerable Driver (HEVD) is an excellent starting point.
 
-If you don’t have these skills yet, I recommend:  
+How to Prepare If You're Not Ready Yet
+---
+If you don’t yet have the necessary skills, don’t rush into AWE. Instead, focus on building a solid foundation. The best place to start is OSED (EXP-301), which provides structured training in user-mode exploitation, covering buffer overflows, SEH exploitation, and Return-Oriented Programming (ROP).
 
-- Start with OSED (EXP-301)—This builds a great foundation in user-mode exploitation.  
-- Practice Windows exploitation in VulnServer or HEVD—This will teach you memory corruption techniques.  
+Beyond structured training, hands-on practice is key. Vulnerable applications like VulnServer and HEVD provide excellent practice environments for understanding memory corruption techniques in real-world scenarios. Spend time exploiting these targets, refining your debugging workflow, and learning how Windows mitigations affect exploitability.
+
+AWE is one of the most challenging exploit development courses out there, but with the right preparation, it’s an invaluable experience. If you put in the groundwork, you’ll walk away with a deep, hands-on understanding of advanced Windows exploitation techniques—and the skills to take on some of the toughest real-world vulnerabilities.
 
 The AWE Course: A Week of Intense Learning
 ---
-I attended the AWE course in Singapore at SinCon 2024, and it was an intense five-day experience. By the time I boarded my flight to Singapore for the AWE course in May 2024, I felt ready. Spoiler: I wasn’t.
-
-Our instructors were Morten Schenk (@blomster81) and Alexandru Uifalvi (@sickness).
+I attended the AWE course in Singapore at SinCon 2024, and it was an intense, high-pressure five-day experience. By the time I boarded my flight to Singapore in May 2024, I felt prepared and confident. Spoiler alert: I wasn’t.
 
 Day 1: Welcome to Windows Exploitation
 ---
