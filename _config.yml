@@ -24,6 +24,7 @@ words_per_minute : 200
 
 # Build settings
 markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
