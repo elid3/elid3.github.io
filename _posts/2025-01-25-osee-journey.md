@@ -134,8 +134,8 @@ Lessons Learned
 
 The first attempt broke me. The second attempt built me back stronger.
 
+Final Thoughts: Should You Go for OSEE?
 ---
-## Final Thoughts: Should You Go for OSEE?
 
 If you love deep technical challenges, thrive on reverse engineering, and want to push your skills to the absolute limit, then OSEE is worth it.  
 
