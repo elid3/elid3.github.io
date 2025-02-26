@@ -5,6 +5,7 @@ categories:
 tags:
     - OSEE
     - exploit development
+excerpt: "OSEE, OSEE exam review, AWE course, Offsec"
 ---
 
 If you’re reading this, you’re probably either considering Advanced Windows Exploitation (AWE) or preparing for the Offensive Security Exploitation Expert (OSEE) exam. Maybe you’re just curious about what it takes to pass one of the most challenging certifications in cybersecurity.  
