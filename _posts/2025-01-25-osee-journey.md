@@ -9,9 +9,7 @@ tags:
 
 If you’re reading this, you’re probably either considering Advanced Windows Exploitation (AWE) or preparing for the Offensive Security Exploitation Expert (OSEE) exam. Maybe you’re just curious about what it takes to pass one of the most challenging certifications in cybersecurity.  
 
-Either way, buckle up—this is an unfiltered breakdown of my experience.  
-
-This is the story of months of preparation, intense debugging sessions, two exam attempts, and a complete reevaluation of how I approach exploitation.  
+Either way, buckle up—this is an unfiltered breakdown of my experience. This is the story of months of preparation, intense debugging sessions, two exam attempts, and a complete reevaluation of how I approach exploitation.  
 
 Who Should Take the AWE Course?
 ---
