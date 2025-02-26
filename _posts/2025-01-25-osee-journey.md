@@ -13,9 +13,8 @@ Either way, buckle up—this is an unfiltered breakdown of my experience.
 
 This is the story of months of preparation, intense debugging sessions, two exam attempts, and a complete reevaluation of how I approach exploitation.  
 
+Who Should Take the AWE Course?
 ---
-
-## Who Should Take the AWE Course?
 
 Before signing up for AWE, I asked myself:  
 
@@ -36,15 +35,15 @@ If you don’t have these skills yet, I recommend:
 - Start with OSED (EXP-301)—This builds a great foundation in user-mode exploitation.  
 - Practice Windows exploitation in VulnServer or HEVD—This will teach you memory corruption techniques.  
 
+The AWE Course: A Week of Intense Learning
 ---
-
-## The AWE Course: A Week of Intense Learning
 
 I attended the AWE course in Singapore at SinCon 2024, and it was an intense five-day experience. By the time I boarded my flight to Singapore for the AWE course in May 2024, I felt ready. Spoiler: I wasn’t.
 
 Our instructors were Morten Schenk (@blomster81) and Alexandru Uifalvi (@sickness).
 
-### Day 1: Welcome to Windows Exploitation
+Day 1: Welcome to Windows Exploitation
+---
 
 The first day eased us in with a simple warm-up:  
 
@@ -55,9 +54,8 @@ Then things escalated quickly.
 - Exploiting a Use-After-Free (UAF) vulnerability in VMware’s RPC backdoor mechanism.  
 - Bypassing Windows Defender Exploit Guard hardening.  
 
+Days 2-3: Browser Exploits & Sandbox Escapes
 ---
-
-### Days 2-3: Browser Exploits & Sandbox Escapes
 
 Next, we focused on browser exploitation, specifically targeting a Type Confusion vulnerability in Microsoft Edge’s Chakra JavaScript engine.  
 
@@ -72,9 +70,8 @@ Even after achieving code execution, we were still sandboxed. We had to chain it
 
 By the end of the third day, I had successfully popped a reverse shell just by (optionally) clicking a button in Edge.  
 
+Days 4-5: Kernel Exploitation & HVCI Bypasses
 ---
-
-### Days 4-5: Kernel Exploitation & HVCI Bypasses
 
 The last two days focused entirely on Windows kernel exploitation.  
 
@@ -86,21 +83,20 @@ We started with a third party driver vulnerability, bypassing SMEP (Supervisor M
 
 By the end of the course, I had learned more about Windows exploitation in five days than in the past year of self-study.  
 
+The OSEE Exam: 72 Hours of Intensity
 ---
-
-## The OSEE Exam: 72 Hours of Intensity
 
 After finishing the AWE course, I took 5 months to revisit the labs, build custom exploits, and refine my understanding of kernel internals.  
 
 Then, I booked the OSEE exam—and this is where things got real.  
 
-### How the OSEE Exam Works:
-
+How the OSEE Exam Works:
 - You get two challenges.  
 - You have 72 hours.  
-- You need 75/100 points to pass.  
-
-### Attempt 1: The Strategic Failure
+- You need 75/100 points to pass.
+  
+Attempt 1: The Strategic Failure
+--- 
 
 I walked into my first attempt knowing I wasn’t fully ready. But I also knew that failing early would expose my weaknesses and help me prepare better for the second try.  
 
@@ -110,7 +106,8 @@ I got stuck on small details that ate up hours. I second-guessed my approach, ov
 
 By the time I reached the final stretch, I was mentally exhausted, frustrated, and completely out of ideas. The realization sank in: I wasn’t going to pass.  
 
-### Attempt 2: The Redemption Arc
+Attempt 2: The Redemption Arc
+---
 
 The next day, I started planning my rematch.  
 
@@ -124,7 +121,8 @@ At hour 55, I knew I had passed. But I kept pushing—not because I had to, but 
 
 When I submitted my report this time, there was no doubt in my mind. I had earned it.  
 
-### Lessons Learned
+Lessons Learned
+---
 
 - Hard work isn’t enough—smart work matters more.  
 - Sleep is a weapon. Fatigue makes simple problems feel impossible.  
